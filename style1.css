@@ -148,92 +148,7 @@ p {
     padding: 20px;
     text-align: center;
   }
-  /* Footer */
-#main-footer {
-  text-align: center;
-  background: #fff;
-  color:red;
-  padding: 20px;
-}
-* {box-sizing:border-box}
-
-* {box-sizing:border-box}
-.footer {
-  background: #000;
-  color: #8a8a8a;
-  font-size: 14px;
-  padding: 60px 0 20px;
  
-}
-
-.footer p {
-  color: #8a8a8a;
-  height: 50px;
-}
-
-
-.footer h3 {
-  color: #ffffff;
-  margin-bottom: 20px;
-  height: 50px;
-}
-
-
-.footer-col-1,
-.footer-col-2,
-.footer-col-3,
-.footer-col-4 {
-  min-width: 250px;
-  margin-bottom: 20px;
-}
-
-.footer-col-1 {
-  flex-basis: 30%;
-}
-
-.footer-col-2 {
-  flex: 1;
-  text-align: center;
-}
-
-.footer-col-2 img {
-  width: 180px;
-  margin-bottom: 20px;
-}
-
-.footer-col-3,
-.footer-col-4 {
-  flex-basis: 12%;
-  text-align: center;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.app-logo {
-  margin-top: 20px;
-}
-.app-logo img {
-  width: 140px;
-}
-
-.footer hr {
-  border: none;
-  background: #b5b5b5;
-  height: 1px;
-  margin: 20px 0;
-}
-
-.copyright {
-  text-align: center;
-}
-
-.menu-icon {
-  width: 28px;
-  margin-left: 20px;
-  display: none;
-}
 #showcase {
   background:url('./images/Art.jpeg') no-repeat center center/cover; 
   
@@ -250,4 +165,86 @@ ul {
 }
 #showcase .showcase-content button{
   align-items:right;
+  float:right;
+  height:60px;
+  width:155px;
+  border-radius: 10px;
+  background-color:yellow;
+  font-size: larger;
+}
+#showcase1 {
+  background:url('./images/spiritual_back.PNG') no-repeat center center/cover; 
+  
+  
+  height: 600px;
+}
+#showcase1 .showcase-content p{
+  padding-top: 5%;
+}
+
+#showcase1 .showcase-content h2{
+  padding-left: 20%;
+  padding-top: 2%;
+}
+
+#showcase1 .showcase-content button{
+  align-items:right;
+  float:right;
+  height:60px;
+  width:155px;
+  border-radius: 10px;
+  background-color:yellow;
+  font-size: larger;
+}
+/*y do we need api*/
+#showcase2 {
+  background:url('./images/why_api.jpeg') no-repeat center center/cover; 
+  
+  
+  height: 600px;
+}
+#showcase2 .showcase-content p{
+  padding-top: 5%;
+  font-size:x-large;
+}
+
+#showcase2 .showcase-content h2{
+  padding-left: 20%;
+  padding-top: 5%;
+  font-size:xx-large;
+}
+#showcase2 .showcase-content button{
+  align-items:right;
+}
+
+/*buying api page*/
+#showcase3{
+  background:url('./images/API.jpeg') no-repeat center center/cover; 
+  
+  
+  height: 600px;
+}
+#showcase3 .showcase-content p{
+  padding-top:40%;
+  padding-right: 18%;
+  font-size:x-large;
+  float: right;
+
+}
+
+#showcase3 .showcase-content h2{
+  padding-left: 20%;
+  padding-top: 5%;
+  font-size:xx-large;
+}
+#showcase3 .showcase-content button{
+  align-items:right;
+}
+/*footer*/
+/* Footer */
+#main-footer {
+  text-align: center;
+  background:gold;
+  color:red;
+  padding: 20px;
 }
